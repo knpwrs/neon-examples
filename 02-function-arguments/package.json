@@ -1,0 +1,14 @@
+{
+  "name": "01-hello-world",
+  "private": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "neon build",
+    "install": "npm run build"
+  },
+  "author": "Kenneth Powers <ken@kenpowers.net> (http://knpw.rs)",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.1.7"
+  }
+}

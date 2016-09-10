@@ -1,0 +1,11 @@
+[package]
+name = "function-arguments"
+version = "0.1.0"
+authors = ["Kenneth Powers <ken@kenpowers.net>"]
+
+[lib]
+name = "function_arguments"
+crate-type = ["dylib"]
+
+[dependencies]
+neon = "0.1"
