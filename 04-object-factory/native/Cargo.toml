@@ -1,0 +1,11 @@
+[package]
+name = "object-factory"
+version = "0.1.0"
+authors = ["Kenneth Powers <ken@kenpowers.net>"]
+
+[lib]
+name = "object_factory"
+crate-type = ["dylib"]
+
+[dependencies]
+neon = "0.1"
